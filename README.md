@@ -14,7 +14,10 @@ cd teste-dom-pixel
 cp .env.example .env
 
 ### Instale os pacotes
-$ docker run --rm --interactive --tty --volume $PWD:/app --user $(id -u):$(id -g) composer install
+docker run --rm --interactive --tty \
+  --volume $PWD:/app \
+  --user $(id -u):$(id -g) \
+  composer install
 
 ### Execute o projeto
 ./vendor/bin/sail up -d
