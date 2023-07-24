@@ -31,3 +31,5 @@ Este projeto é executado utilizando Laravel Sail: https://laravel.com/docs/10.x
 `sudo ./vendor/bin/sail artisan key:generate`
 #### Execute as migrations
 `sudo ./vendor/bin/sail artisan migrate`
+#### Acesse a aplicação
+http://localhost/products
