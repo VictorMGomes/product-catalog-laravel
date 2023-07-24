@@ -7,6 +7,8 @@ Uma aplicação simples de gerenciamento de produtos para a seleção de Desenvo
 ### Requisitos
 ### Docker e Docker Composer
 Este projeto é executado via containers: https://docs.docker.com/
+Obs: Mas também pode ser utilizado sem dockerização, sendo necessária a instalação dos serviços de forma manual.
+    Verificar o composer.json.
 ### Recomendado o uso de Linux ou WSL
 Para as instruções de comando, outras plataformas talvez necessitem de adaptações.
 ### Laravel Sail
