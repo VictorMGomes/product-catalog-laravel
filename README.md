@@ -25,6 +25,9 @@ Este projeto é executado utilizando Laravel Sail: https://laravel.com/docs/10.x
 `docker run --rm --interactive --tty --volume $PWD:/app --user $(id -u):$(id -g) composer install`
 ### Execute o projeto
 `./vendor/bin/sail up -d`
+### Correção de permissões, necessário em alguns ambientes
+`chmod -R 777 storage`
+`chmod -R 766 .env`
 ### Gere a chave da aplicação
 `./vendor/bin/sail artisan key:generate`
 ### Execute as migrations
