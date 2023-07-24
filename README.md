@@ -1,5 +1,5 @@
 # TESTE DOM-PIXEL
-Sistema de Catálogo de Produtos
+### Sistema de Catálogo de Produtos
 Uma aplicação simples de gerenciamento de produtos para a seleção de Desenvolvedor PHP.
 
 ## Como executar o projeto
