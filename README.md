@@ -1,6 +1,6 @@
-# TESTE DOM-PIXEL
+# Catálogo de Produtos em Laravel
 ## Sistema de Catálogo de Produtos
-Uma aplicação simples de gerenciamento de produtos para a seleção de Desenvolvedor PHP.
+Uma aplicação simples de gerenciamento de produtos desenvolvido em Laravel
 
 ## Como executar o projeto
 
